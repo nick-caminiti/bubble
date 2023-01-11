@@ -1,0 +1,28 @@
+
+[1mFrom:[0m /home/nmcams11/repos/ruby/bubble/bubble.rb:10 Object#bubble_sort:
+
+     [1;34m2[0m: [32mdef[0m [1;34mbubble_sort[0m(numbers)
+     [1;34m3[0m:   i = [1;34m0[0m
+     [1;34m4[0m:   n = (numbers.length) - [1;34m1[0m
+     [1;34m5[0m:   [32mwhile[0m i < n 
+     [1;34m6[0m:     swaps = [1;34m0[0m
+     [1;34m7[0m:     [32mfor[0m k [32min[0m [1;34m0[0m..n-[1;34m1[0m
+     [1;34m8[0m:       [32mif[0m numbers[k] > numbers[k+[1;34m1[0m]
+     [1;34m9[0m:         binding.pry
+ => [1;34m10[0m:         first_num = numbers[k]
+    [1;34m11[0m:         second_Num = numbers[k+[1;34m1[0m]
+    [1;34m12[0m: 
+    [1;34m13[0m:         numbers[k] = second_Num
+    [1;34m14[0m:         numbers[k+[1;34m1[0m] = first_num
+    [1;34m15[0m:         p [31m[1;31m"[0m[31mSwapped #{first_num}[0m[31m with #{second_Num}[0m[31m[1;31m"[0m[31m[0m
+    [1;34m16[0m:         swaps += [1;34m1[0m 
+    [1;34m17[0m:       [32mend[0m
+    [1;34m18[0m:     [32mend[0m
+    [1;34m19[0m:     p numbers
+    [1;34m20[0m:     p swaps
+    [1;34m21[0m:     swaps > [1;34m0[0m ? i +=[1;34m1[0m : [32mbreak[0m
+    [1;34m22[0m:     [1;34m# i +=1[0m
+    [1;34m23[0m:   [32mend[0m 
+    [1;34m24[0m:   p numbers
+    [1;34m25[0m: [32mend[0m
+
